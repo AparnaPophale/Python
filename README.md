@@ -1,2 +1,2 @@
 # Python
-Python projects, libraries, code samples 
+Python Projects, Libraries, Code Samples 
