@@ -18,17 +18,10 @@ in marketing analytics for audience targeting and persona profiling.
 - customers_segmented_output.csv — model output
 - requirements.txt
 
-## Project structure:
-                    Customer-Segmentation-KMeans/
-                    │
-                    ├── customer_segmentation.ipynb
-                    ├── customers.csv
-                    ├── README.md
-                    └── requirements.txt
-
 ## Further Scope:
 - Integrate demographic, behavioral, and transactional features (e.g., website activity, purchase history) to build richer, multidimensional customer personas.
 - Implement advanced clustering techniques such as DBSCAN, Gaussian Mixture Models, or hierarchical clustering to compare segmentation quality and model stability.
 - Deploy the segmentation model as an API or dashboard to allow marketing teams to dynamically score new customers and tailor campaigns in real time.
+
 
 
