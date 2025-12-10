@@ -19,7 +19,7 @@ Promotion, Transactional, and Engagement using TF-IDF and Logistic Regression.
 * requirements.txt
 
 
-## Further Scope:
+## Future Scope:
 
 * Expand Dataset – Increase the number of emails and diversify categories to improve model generalization and robustness.
 * Advanced NLP Models – Implement transformer-based models like BERT, DistilBERT, or RoBERTa for higher accuracy and better understanding of email context.
@@ -27,3 +27,4 @@ Promotion, Transactional, and Engagement using TF-IDF and Logistic Regression.
 * Feature Engineering – Experiment with additional features such as email metadata (sender, subject line length, time sent) to improve predictions.
 * Real-Time Classification – Build a pipeline to classify incoming marketing emails in real-time, integrating with a messaging system or email server.
 * Sentiment \& Intent Analysis – Extend the model to identify sentiment or specific call-to-action intent, providing actionable insights for marketing campaigns.
+
