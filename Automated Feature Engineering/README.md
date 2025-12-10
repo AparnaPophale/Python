@@ -21,8 +21,9 @@ It uses a preprocessing pipeline with:
 - sales.csv
 - requirements.txt
 
-## Further Scope:
+## Future Scope:
 
 - Incorporate advanced feature engineering such as interaction terms, polynomial features, and domain-specific ratios to enhance model performance.
 - Experiment with additional regression models (Random Forest, Gradient Boosting, XGBoost) and compare results using cross-validation.
 - Automate the entire pipeline by integrating feature generation, model training, and evaluation into a reusable, production-ready workflow.
+
