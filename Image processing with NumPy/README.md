@@ -4,13 +4,13 @@ In this project, the NumPy library is used to analyze the frequency distribution
 
 ## Steps:
 
-1. Load and Display the Rainbow Image
-2. Extract RGB Channels
+1. Load and display the rainbow Image
+2. Extract RGB channels
 3. Visualize each channel
-4. Compute Frequency Distributions
-5. Visualize the Color Channel Distributions
-6. Normalize Histograms for Comparison
-7. Compute Summary Statistics
+4. Compute frequency distributions
+5. Visualize the color channel distributions
+6. Normalize histograms for comparison
+7. Compute summary statistics
 
 ## Files: 
 
@@ -29,4 +29,5 @@ Build a simple color-based image classifier using histogram features.
 
 This repository is public for viewing and educational purposes only.
 Unauthorized reuse, modification, or redistribution of any part of this project
+
 requires explicit written permission from the author.
