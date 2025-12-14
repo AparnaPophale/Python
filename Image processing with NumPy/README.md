@@ -28,6 +28,5 @@ Build a simple color-based image classifier using histogram features.
 © 2025-2026 APARNA S POPHALE. All rights reserved.
 
 This repository is public for viewing and educational purposes only.
-Unauthorized reuse, modification, or redistribution of any part of this project
+Unauthorized reuse, modification, or redistribution of any part of this project requires explicit written permission from the author.
 
-requires explicit written permission from the author.
