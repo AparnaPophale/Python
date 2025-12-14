@@ -29,3 +29,10 @@ It is a basic neural network project using MLPClassifier from Scikit-learn. MLP,
 
 - The model can be enhanced by safely incorporating text data through sentiment analysis or embeddings to capture customer feedback patterns.
 - Further improvements can be achieved using advanced models like XGBoost or LightGBM and hyperparameter tuning.
+
+### License
+© 2025-2026 APARNA S POPHALE. All rights reserved.
+
+This repository is public for viewing and educational purposes only.
+Unauthorized reuse, modification, or redistribution of any part of this project
+requires explicit written permission from the author.
