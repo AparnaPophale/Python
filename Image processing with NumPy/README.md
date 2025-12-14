@@ -19,9 +19,9 @@ In this project, the NumPy library is used to analyze the frequency distribution
 
 ## Future scope:
 
-Implement Histogram Equalization to enhance contrast.
-Compare multiple images using their color distributions.
-Build a simple color-based image classifier using histogram features.
+- Implement Histogram Equalization to enhance contrast.
+- Compare multiple images using their color distributions.
+- Build a simple color-based image classifier using histogram features.
 
 
 ### License
@@ -29,4 +29,5 @@ Build a simple color-based image classifier using histogram features.
 
 This repository is public for viewing and educational purposes only.
 Unauthorized reuse, modification, or redistribution of any part of this project requires explicit written permission from the author.
+
 
