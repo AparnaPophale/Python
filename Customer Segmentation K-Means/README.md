@@ -23,3 +23,9 @@ in marketing analytics for audience targeting and persona profiling.
 - Implement advanced clustering techniques such as DBSCAN, Gaussian Mixture Models, or hierarchical clustering to compare segmentation quality and model stability.
 - Deploy the segmentation model as an API or dashboard to allow marketing teams to dynamically score new customers and tailor campaigns in real time.
 
+### License
+© 2025-2026 APARNA S POPHALE. All rights reserved.
+
+This repository is public for viewing and educational purposes only.
+Unauthorized reuse, modification, or redistribution of any part of this project
+requires explicit written permission from the author.
