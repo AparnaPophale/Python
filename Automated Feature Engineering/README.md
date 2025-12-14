@@ -27,3 +27,11 @@ It uses a preprocessing pipeline with:
 - Experiment with additional regression models (Random Forest, Gradient Boosting, XGBoost) and compare results using cross-validation.
 - Automate the entire pipeline by integrating feature generation, model training, and evaluation into a reusable, production-ready workflow.
 
+## License
+© 2025-2026 APARNA S POPHALE. All rights reserved.
+
+This repository is public for viewing and educational purposes only.
+Unauthorized reuse, modification, or redistribution of any part of this project
+requires explicit written permission from the author.
+
+
