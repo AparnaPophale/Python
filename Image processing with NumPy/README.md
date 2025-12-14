@@ -1,4 +1,4 @@
-# Project: 🌈 Image Processing with NumPy — Color Channel Frequency Distribution
+# 🌈 Image Processing with NumPy — Color Channel Frequency Distribution
 
 In this project, the NumPy library is used to analyze the frequency distribution (histogram) of pixel intensities in a colorful image—specifically, a rainbow photo. It shows how the red, green, and blue (RGB) color channels contribute to the image’s overall appearance. All computations are vectorized using NumPy, meaning no Python loops are required.
 
@@ -29,6 +29,7 @@ In this project, the NumPy library is used to analyze the frequency distribution
 
 This repository is public for viewing and educational purposes only.
 Unauthorized reuse, modification, or redistribution of any part of this project requires explicit written permission from the author.
+
 
 
 
