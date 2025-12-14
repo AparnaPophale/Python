@@ -17,7 +17,7 @@ In this project, the NumPy library is used to analyze the frequency distribution
 - Image_processing_with_numpy.ipynb
 - rainbow.png
 
-## Future scope:
+## Future Scope:
 
 - Implement Histogram Equalization to enhance contrast.
 - Compare multiple images using their color distributions.
@@ -29,5 +29,6 @@ In this project, the NumPy library is used to analyze the frequency distribution
 
 This repository is public for viewing and educational purposes only.
 Unauthorized reuse, modification, or redistribution of any part of this project requires explicit written permission from the author.
+
 
 
