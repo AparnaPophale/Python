@@ -28,3 +28,9 @@ Promotion, Transactional, and Engagement using TF-IDF and Logistic Regression.
 * Real-Time Classification – Build a pipeline to classify incoming marketing emails in real-time, integrating with a messaging system or email server.
 * Sentiment \& Intent Analysis – Extend the model to identify sentiment or specific call-to-action intent, providing actionable insights for marketing campaigns.
 
+### License
+© 2025-2026 APARNA S POPHALE. All rights reserved.
+
+This repository is public for viewing and educational purposes only.
+Unauthorized reuse, modification, or redistribution of any part of this project
+requires explicit written permission from the author.
