@@ -9,7 +9,8 @@ Python Projects demonstrating key concepts in Data Science and Machine Learning 
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" height="40"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40" height="40"/>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40"/>
--------
+    
+----
     
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow) This repository is a work in progress.
