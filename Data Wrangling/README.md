@@ -1,4 +1,4 @@
-# Project: San Francisco Public Library Patron Usage Analysis (Data Wrangling)
+# San Francisco Public Library Patron Usage Analysis (Data Wrangling)
 
 In this project, data wrangling and exploratory data analysis are performed on the San Francisco Public Library Patron Usage dataset using Pandas, Matplotlib, and Seaborn. The goal is to clean and preprocess raw library usage data, engineer meaningful features, and analyze patron behavior patterns across age groups, patron types, and library branches.
 
@@ -34,3 +34,4 @@ In this project, data wrangling and exploratory data analysis are performed on t
 
 This repository is public for viewing and educational purposes only.
 Unauthorized reuse, modification, or redistribution of any part of this project requires explicit written permission from the author.
+
