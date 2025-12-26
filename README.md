@@ -1,5 +1,5 @@
 # Python
-Python Projects demonstrating key concepts in Data Science and Machine Learning using NumPy, Pandas, Scikit-learn and Matplotlib.
+Python projects demonstrating key concepts in **Data Science** and **Machine Learning** using NumPy, Pandas, Scikit-learn and Matplotlib.
 
 <p align="left">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/>
