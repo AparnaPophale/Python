@@ -31,7 +31,7 @@ This project predicts students' performance tiers based on study habits, attenda
 
 ## Files:
 
-- Exam_Score_Prediction.ipynb 
+- exam_score_prediction.ipynb 
 - Exam_Score_Prediction.csv – Dataset from Kaggle: [Exam Score Prediction Dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset?resource=download)  
 - requirements.txt
 
@@ -47,3 +47,4 @@ This project predicts students' performance tiers based on study habits, attenda
 This repository is public for viewing and educational purposes only.
 Unauthorized reuse, modification, or redistribution of any part of this project
 requires explicit written permission from the author.
+
