@@ -19,7 +19,7 @@ In this project, data wrangling and exploratory data analysis are performed on t
 ## Files:
 
 - library_data_wrangling.ipynb
-- Library_Usage.csv - (Dataset from Kaggle - https://www.kaggle.com/datasets/datasf/sf-library-usage-data?select=Library_Usage.csv)
+- Library_Usage.csv - Dataset from Kaggle: [Library Usage](https://www.kaggle.com/datasets/datasf/sf-library-usage-data?select=Library_Usage.csv)
 - requirements.txt
   
 
@@ -34,4 +34,5 @@ In this project, data wrangling and exploratory data analysis are performed on t
 
 This repository is public for viewing and educational purposes only.
 Unauthorized reuse, modification, or redistribution of any part of this project requires explicit written permission from the author.
+
 
