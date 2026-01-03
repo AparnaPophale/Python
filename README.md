@@ -20,9 +20,10 @@ Python projects demonstrating key concepts in **Data Science** and **Machine Lea
 
 
 
-### License
-© 2025-2026 APARNA S POPHALE. All rights reserved.
+### MIT License
+Copyright (c) 2026 Aparna S Pophale
 
-This repository is public for viewing and educational purposes only.
-Unauthorized reuse, modification, or redistribution of any part of this project
-requires explicit written permission from the author.
+**Ethical Use Notice:**
+This project is intended for educational, research, and professional learning purposes.
+Any use that misrepresents authorship or is intended to deceive others is unethical.
+Attribution to the original author is required under the MIT License.
