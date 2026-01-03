@@ -93,11 +93,11 @@ To design a reusable machine learning pipeline that automatically transforms mix
 ---
 
 ## Future Enhancements
--- Incorporate advanced feature engineering techniques: Interaction terms, Polynomial features, Domain-specific ratios
--- Compare additional regression models: Gradient Boosting, XGBoost, Extra Trees
--- Apply cross-validation for robust model evaluation
--- Package the pipeline into a reusable, production-ready module
--- Integrate automated model monitoring and retraining
+- Incorporate advanced feature engineering techniques: Interaction terms, Polynomial features, Domain-specific ratios
+- Compare additional regression models: Gradient Boosting, XGBoost, Extra Trees
+- Apply cross-validation for robust model evaluation
+- Package the pipeline into a reusable, production-ready module
+- Integrate automated model monitoring and retraining
 
 
 ### License
@@ -105,4 +105,5 @@ This project is licensed under the MIT License.
 
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
+
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
