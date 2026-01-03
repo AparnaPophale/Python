@@ -26,8 +26,8 @@ The project demonstrates a complete machine learning workflow, including data pr
 
 ### Libraries Used
 
-- **Data Processing:** pandas, NumPy
-- **Machine Learning:** scikit-learn
+- **Data Processing:** NumPy, Pandas
+- **Machine Learning:** Scikit-learn
 - **Preprocessing:** StandardScaler, OneHotEncoder, ColumnTransformer
 - **Models:** MLPClassifier, DecisionTreeClassifier
 - **Evaluation & Visualization:** matplotlib, seaborn
@@ -112,3 +112,4 @@ This project is licensed under the MIT License.
 This project is intended for educational, research, and professional learning purposes.
 
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
