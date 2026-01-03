@@ -1,4 +1,4 @@
-# Image Processing with NumPy — Color Channel Frequency Distribution
+# 🌈 Image Processing with NumPy — Color Channel Frequency Distribution
 
 ## Project Overview
 This project demonstrates **fundamental image processing techniques** using **NumPy** by analyzing the **frequency distribution of pixel intensities** in a colorful image (a rainbow photograph).
@@ -99,4 +99,5 @@ This project is licensed under the MIT License.
 
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
+
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
