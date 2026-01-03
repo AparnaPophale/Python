@@ -22,6 +22,7 @@ Python projects demonstrating key concepts in **Data Science** and **Machine Lea
 
 ### MIT License
 Copyright (c) 2026 Aparna S Pophale
+
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
 Any use that misrepresents authorship or is intended to deceive others is unethical.
