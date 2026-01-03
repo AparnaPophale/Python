@@ -1,6 +1,6 @@
 # Marketing Email Text Classification (NLP)
 
-## Project Overview
+## Overview
 This project focuses on **classifying marketing email text** into meaningful categories such as **Promotional**, **Transactional**, and **Engagement** emails using **Natural Language Processing (NLP)** techniques.
 
 The solution applies **TF-IDF vectorization** for text representation and a **Logistic Regression classifier** to build an interpretable and efficient text classification model. The project demonstrates a complete NLP workflow from raw text processing to model evaluation.
@@ -110,4 +110,5 @@ This project is licensed under the MIT License.
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
 
