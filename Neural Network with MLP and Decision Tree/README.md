@@ -75,8 +75,8 @@ The project demonstrates a complete machine learning workflow, including data pr
 ## Results & Insights
 - Successfully classified students into performance tiers based on behavioral and academic indicators
 - Compared model behavior:
-- MLP Classifier: Captures complex, non-linear relationships; learning progress monitored via loss curve
-- Decision Tree: Provides interpretable decision rules for understanding feature impact
+   - MLP Classifier: Captures complex, non-linear relationships; learning progress monitored via loss curve
+   - Decision Tree: Provides interpretable decision rules for understanding feature impact
 - Confusion matrices revealed strengths and weaknesses of each model in handling class imbalance and misclassification
 
 ---
@@ -111,6 +111,7 @@ This project is licensed under the MIT License.
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
 
 
 
