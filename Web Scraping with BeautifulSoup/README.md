@@ -49,13 +49,12 @@ The project highlights how computational text analysis techniques can be applied
 ---
 
 ## Project Structure
-├── ebook_web_scraping.ipynb # Complete analysis workflow
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-└── LICENSE # MIT License
+   ├── ebook_web_scraping.ipynb # Complete analysis workflow
+   ├── requirements.txt # Project dependencies
+   ├── README.md # Project documentation
+   └── LICENSE # MIT License
 
-##Future Enhancements
-
+## Future Enhancements
 - Extend analysis to multiple chapters or full-text analysis
 - Compare sentiment trends across chapters
 - Enable batch analysis of multiple Project Gutenberg books
@@ -103,4 +102,5 @@ This project is licensed under the MIT License.
 Ethical Use Notice
 
 This project is intended for educational, research, and professional learning purposes.
+
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
