@@ -84,9 +84,9 @@ The project highlights how computational text analysis techniques can be applied
 ---
 
 ## How to Run the Project
-1. Clone the repository:  $git clone https://github.com/yourusername/your-repo-name.git$
-2. Install dependencies: $pip install -r requirements.txt$
-3. Open the notebook: $jupyter notebook ebook_web_scraping.ipynb$
+1. Clone the repository:  *git clone https://github.com/yourusername/your-repo-name.git*
+2. Install dependencies: *pip install -r requirements.txt*
+3. Open the notebook: *jupyter notebook ebook_web_scraping.ipynb*
 4. Run the cells sequentially to reproduce the analysis
 
 
@@ -97,6 +97,7 @@ This project is licensed under the MIT License.
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
 
 
 
