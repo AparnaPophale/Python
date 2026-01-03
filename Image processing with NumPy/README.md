@@ -99,6 +99,6 @@ This project is licensed under the MIT License.
 
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
-
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
 
