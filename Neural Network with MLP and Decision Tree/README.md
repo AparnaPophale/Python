@@ -1,50 +1,113 @@
 # Exam Score Prediction with MLP and Decision Tree
 
-This project predicts students' performance tiers based on study habits, attendance, sleep quality, and other factors using **MLP (Neural Network)** and **Decision Tree** classifiers. 
+## Overview
+This project predicts **students’ performance tiers** based on factors such as study habits, attendance, sleep quality, and other academic attributes using **supervised machine learning models**. Two classifiers are implemented and compared: a **Multilayer Perceptron (MLP) Neural Network** and a **Decision Tree**.
 
+The project demonstrates a complete machine learning workflow, including data preprocessing, feature engineering, model training, evaluation, and visualization, using **Python** and **scikit-learn**.
 
-## Steps:
-  
-1. Load dataset and inspect data types, and missing values.
-2. Feature Engineering
-       - Create the target variable `performance_tier` using bins:  
-       - Map ordinal feature `sleep_quality` to numerical values.
-       - Drop irrelevant columns to prevent data leakage.
-3. Preprocessing  
-   - Define numerical and categorical features.
-   - Apply `StandardScaler` for numerical features.
-   - Apply `OneHotEncoder` for categorical features using `ColumnTransformer`.
-4. Train-Test Split  
-   Split the data into training (80%) and testing (20%) sets with stratification on the target.
-5. Model Definition  
-   - MLP Classifier
-   - Decision Tree Classifier 
-6. Model Training and Evaluation
-   - Train both models using a pipeline (preprocessing + model).
-   - Evaluate performance with `classification_report`.
-7. Visualizations 
-   - MLP Loss Curve to monitor learning progress.  
-   - Decision Tree visualization (top 2 levels) to understand decision rules.  
-8. Confusion Matrices  
-   Display confusion matrices for both models to analyze misclassification patterns.
+---
 
+## Objective
+- To design and implement an end-to-end machine learning pipeline that predicts students’ academic performance tiers using behavioral and academic indicators, applying supervised learning models (MLP Neural Network and Decision Tree) to compare predictive performance, interpretability, and classification effectiveness.
 
-## Files:
+---
 
-- exam_score_prediction.ipynb 
-- Exam_Score_Prediction.csv – Dataset from Kaggle: [Exam Score Prediction Dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset?resource=download)  
-- requirements.txt
+## Data Source
+- Exam_Score_Prediction.csv 
+– Dataset from Kaggle: [Exam Score Prediction Dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset?resource=download)
 
-## Future Scope:
+---
 
-- Extend the analysis using advanced models like Random Forest or XGBoost for improved accuracy.
-- Incorporate additional student data (e.g., assignments, extracurricular activities) to better predict performance.
+## Methods & Tools
+
+### Programming Environment
+- Python 
+- Jupyter Notebook
+
+### Libraries Used
+
+- **Data Processing:** pandas, NumPy
+- **Machine Learning:** scikit-learn
+- **Preprocessing:** StandardScaler, OneHotEncoder, ColumnTransformer
+- **Models:** MLPClassifier, DecisionTreeClassifier
+- **Evaluation & Visualization:** matplotlib, seaborn
+
+---
+
+## Workflow (End-to-End Pipeline)
+1. Load the dataset and inspect data types and missing values  
+2. Perform feature engineering:
+   - Create the target variable `performance_tier` using score bins  
+   - Map ordinal feature `sleep_quality` to numerical values  
+   - Drop irrelevant columns to prevent data leakage  
+3. Preprocessing:
+   - Identify numerical and categorical features  
+   - Apply `StandardScaler` to numerical features  
+   - Apply `OneHotEncoder` to categorical features using `ColumnTransformer`  
+4. Train-test split:
+   - Split data into 80% training and 20% testing sets  
+   - Use stratification on the target variable  
+5. Model definition:
+   - MLP Classifier (Neural Network)  
+   - Decision Tree Classifier  
+6. Model training and evaluation:
+   - Train both models using pipelines (preprocessing + model)  
+   - Evaluate performance using `classification_report`  
+7. Visualization:
+   - Plot MLP loss curve to monitor learning progress  
+   - Visualize the top levels of the decision tree to interpret decision rules  
+8. Confusion matrices:
+   - Analyze misclassification patterns for both models  
+
+---
+
+## Project Structure
+```text
+├── exam_score_prediction.ipynb   # Complete ML workflow and visualizations
+├── Exam_Score_Prediction.csv     # Dataset (Kaggle: Exam Score Prediction)
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project documentation
+└── LICENSE                       # MIT License
+```
+
+---
+
+## Future Enhancements
+- Extend analysis using advanced ensemble models such as Random Forest or XGBoost
+- Incorporate additional student data (e.g., assignments, extracurricular activities)
+- Perform hyperparameter tuning for improved model performance
+- Explore fairness and bias considerations in educational predictions
+
+---
+
+## Results & Insights
+- Successfully classified students into performance tiers based on behavioral and academic indicators
+- Compared model behavior:
+- MLP Classifier: Captures complex, non-linear relationships; learning progress monitored via loss curve
+- Decision Tree: Provides interpretable decision rules for understanding feature impact
+- Confusion matrices revealed strengths and weaknesses of each model in handling class imbalance and misclassification
+
+---
+
+## Practical Applications
+- Educational data mining and learning analytics
+- Early identification of students at academic risk
+- Model comparison for structured tabular datasets
+- Demonstration of end-to-end ML pipelines using scikit-learn
+
+---
+
+## How to Run the Project
+1. Clone the repository: *git clone https://github.com/yourusername/your-repo-name.git*
+2. Install dependencies: *pip install -r requirements.txt*
+3. Open the notebook: *jupyter notebook exam_score_prediction.ipynb*
+4. Run the cells sequentially to reproduce the analysis
+
 
 
 ### License
-© 2025-2026 APARNA S POPHALE. All rights reserved.
+This project is licensed under the MIT License.
 
-This repository is public for viewing and educational purposes only.
-Unauthorized reuse, modification, or redistribution of any part of this project
-requires explicit written permission from the author.
-
+**Ethical Use Notice:**
+This project is intended for educational, research, and professional learning purposes.
+Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
