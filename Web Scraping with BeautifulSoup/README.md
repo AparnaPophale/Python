@@ -54,7 +54,7 @@ The project highlights how computational text analysis techniques can be applied
   ├── requirements.txt           # Project dependencies
   ├── README.md                  # Project documentation
   └── LICENSE                    # MIT License
-
+  ```
 
 ## Future Enhancements
 - Extend analysis to multiple chapters or full-text analysis
@@ -106,4 +106,5 @@ Ethical Use Notice
 This project is intended for educational, research, and professional learning purposes.
 
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
 
