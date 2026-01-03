@@ -1,108 +1,107 @@
-# Exam Score Prediction with MLP and Decision Tree
+# Marketing Email Text Classification (NLP)
 
-## Overview
-This project predicts **students’ performance tiers** based on factors such as study habits, attendance, sleep quality, and other academic attributes using **supervised machine learning models**. Two classifiers are implemented and compared: a **Multilayer Perceptron (MLP) Neural Network** and a **Decision Tree**.
+## Project Overview
+This project focuses on **classifying marketing email text** into meaningful categories such as **Promotional**, **Transactional**, and **Engagement** emails using **Natural Language Processing (NLP)** techniques.
 
-The project demonstrates a complete machine learning workflow, including data preprocessing, feature engineering, model training, evaluation, and visualization, using **Python** and **scikit-learn**.
+The solution applies **TF-IDF vectorization** for text representation and a **Logistic Regression classifier** to build an interpretable and efficient text classification model. The project demonstrates a complete NLP workflow from raw text processing to model evaluation.
 
 ---
 
 ## Objective
-- To design and implement an end-to-end machine learning pipeline that predicts students’ academic performance tiers using behavioral and academic indicators, applying supervised learning models (MLP Neural Network and Decision Tree) to compare predictive performance, interpretability, and classification effectiveness.
+To build an end-to-end NLP-based text classification system that automatically categorizes marketing emails using statistical text representations and supervised machine learning, enabling scalable and automated email content analysis.
 
 ---
 
 ## Data Source
-- Exam_Score_Prediction.csv 
-– Dataset from Kaggle: [Exam Score Prediction Dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset?resource=download)
+- **emails.csv**
+  - Contains labeled marketing email text
+  - Categories include promotional, transactional, and engagement-type emails
+  - Dataset used for supervised text classification
 
 ---
 
-## Methods & Tools
+## Methods & Tools Used
+- Text preprocessing and cleaning
+- TF-IDF vectorization for feature extraction
+- Supervised classification using Logistic Regression
+- Model evaluation using accuracy and classification metrics
 
-### Programming Environment
-- Python 
+---
+
+## Programming Environment
+- Python 3.12
 - Jupyter Notebook
 
-### Libraries Used
+---
 
-- **Data Processing:** pandas, NumPy
-- **Machine Learning:** scikit-learn
-- **Preprocessing:** StandardScaler, OneHotEncoder, ColumnTransformer
-- **Models:** MLPClassifier, DecisionTreeClassifier
-- **Evaluation & Visualization:** matplotlib, seaborn
+## Libraries Used
+- **Data Handling:** numpy, pandas 
+- **Natural Language Processing:** scikit-learn (TfidfVectorizer)  
+- **Machine Learning:** LogisticRegression  
+- **Evaluation:** classification_report, accuracy_score  
 
 ---
 
-## Workflow (End-to-End Pipeline)
-1. Load the dataset and inspect data types and missing values  
-2. Perform feature engineering:
-   - Create the target variable `performance_tier` using score bins  
-   - Map ordinal feature `sleep_quality` to numerical values  
-   - Drop irrelevant columns to prevent data leakage  
-3. Preprocessing:
-   - Identify numerical and categorical features  
-   - Apply `StandardScaler` to numerical features  
-   - Apply `OneHotEncoder` to categorical features using `ColumnTransformer`  
-4. Train-test split:
-   - Split data into 80% training and 20% testing sets  
-   - Use stratification on the target variable  
-5. Model definition:
-   - MLP Classifier (Neural Network)  
-   - Decision Tree Classifier  
-6. Model training and evaluation:
-   - Train both models using pipelines (preprocessing + model)  
-   - Evaluate performance using `classification_report`  
-7. Visualization:
-   - Plot MLP loss curve to monitor learning progress  
-   - Visualize the top levels of the decision tree to interpret decision rules  
-8. Confusion matrices:
-   - Analyze misclassification patterns for both models  
+## Workflow
+
+1. Load marketing email dataset  
+2. Perform text cleaning and preprocessing  
+3. Convert email text into numerical features using **TF-IDF**  
+4. Split dataset into training and testing sets  
+5. Train **Logistic Regression** classifier  
+6. Evaluate model performance using:
+   - Accuracy
+   - Precision, Recall, and F1-score
+7. Analyze classification results and misclassification patterns  
 
 ---
 
 ## Project Structure
 ```text
-├── exam_score_prediction.ipynb   # Complete ML workflow and visualizations
-├── Exam_Score_Prediction.csv     # Dataset (Kaggle: Exam Score Prediction)
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project documentation
-└── LICENSE                       # MIT License
+├── marketing_email_classification.ipynb   # NLP workflow and model training
+├── emails.csv                             # Marketing email dataset
+├── requirements.txt                       # Project dependencies
+├── README.md                              # Project documentation
+└── LICENSE                                # MIT License
 ```
 
 ---
 
-## Future Enhancements
-- Extend analysis using advanced ensemble models such as Random Forest or XGBoost
-- Incorporate additional student data (e.g., assignments, extracurricular activities)
-- Perform hyperparameter tuning for improved model performance
-- Explore fairness and bias considerations in educational predictions
-
----
-
 ## Results & Insights
-- Successfully classified students into performance tiers based on behavioral and academic indicators
-- Compared model behavior:
-- MLP Classifier: Captures complex, non-linear relationships; learning progress monitored via loss curve
-- Decision Tree: Provides interpretable decision rules for understanding feature impact
-- Confusion matrices revealed strengths and weaknesses of each model in handling class imbalance and misclassification
+- Successfully classified marketing emails into predefined categories
+- TF-IDF effectively captured keyword importance across different email types
+- Logistic Regression provided:
+- Strong baseline performance
+- Fast training and inference
+- Clear interpretability of features
+- Results demonstrate that classical NLP techniques remain highly effective for structured text classification problems
 
 ---
 
 ## Practical Applications
-- Educational data mining and learning analytics
-- Early identification of students at academic risk
-- Model comparison for structured tabular datasets
-- Demonstration of end-to-end ML pipelines using scikit-learn
+- Automated email categorization for marketing platforms
+- Spam and promotional email filtering
+- Customer engagement analysis
+- CRM and marketing analytics automation
+- Preprocessing pipeline for advanced NLP models
 
 ---
 
 ## How to Run the Project
 1. Clone the repository: *git clone https://github.com/yourusername/your-repo-name.git*
 2. Install dependencies: *pip install -r requirements.txt*
-3. Open the notebook: *jupyter notebook exam_score_prediction.ipynb*
+3. Open the notebook: *jupyter notebook marketing_email_classification.ipynb*
 4. Run the cells sequentially to reproduce the analysis
 
+---
+
+## Future Enhancements
+- Expand the dataset with more diverse email categories
+- Implement transformer-based models such as BERT, DistilBERT, or RoBERTa
+- Perform hyperparameter tuning using Grid Search or Random Search
+- Engineer additional features such as: Subject line length, Sender domain, Time sent
+- Build a real-time email classification pipeline
+- Extend analysis with sentiment and intent detection
 
 
 ### License
