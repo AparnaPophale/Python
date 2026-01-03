@@ -35,8 +35,8 @@ To build an end-to-end NLP-based text classification system that automatically c
 ---
 
 ## Libraries Used
-- **Data Handling:** numpy, pandas 
-- **Natural Language Processing:** scikit-learn (TfidfVectorizer)  
+- **Data Handling:** NumPy, Pandas 
+- **Natural Language Processing:** Scikit-learn (TfidfVectorizer)  
 - **Machine Learning:** LogisticRegression  
 - **Evaluation:** classification_report, accuracy_score  
 
@@ -110,3 +110,4 @@ This project is licensed under the MIT License.
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
