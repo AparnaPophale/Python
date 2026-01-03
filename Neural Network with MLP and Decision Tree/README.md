@@ -13,8 +13,8 @@ The project demonstrates a complete machine learning workflow, including data pr
 ---
 
 ## Data Source
-- Exam_Score_Prediction.csv 
-– Dataset from Kaggle: [Exam Score Prediction Dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset?resource=download)
+- Exam_Score_Prediction.csv
+- Dataset from Kaggle: [Exam Score Prediction Dataset](https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset?resource=download)
 
 ---
 
@@ -110,4 +110,5 @@ This project is licensed under the MIT License.
 
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
+
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
