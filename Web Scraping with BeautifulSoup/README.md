@@ -24,7 +24,7 @@ The project highlights how computational text analysis techniques can be applied
 ## Methods & Tools
 
 ### Programming & Environment
-- Python  
+- Python 3.12 
 - Jupyter Notebook  
 
 ### Libraries Used
@@ -57,16 +57,6 @@ The project highlights how computational text analysis techniques can be applied
   ```
 ---
 
-## Future Enhancements
-- Extend analysis to multiple chapters or full-text analysis
-- Compare sentiment trends across chapters
-- Enable batch analysis of multiple Project Gutenberg books
-- Develop interactive dashboards using Streamlit or Dash
-- Implement POS-aware lemmatization for improved linguistic accuracy
-- Integrate Named Entity Recognition (NER) using spaCy
-
----
-
 ## Results & Insights
 - Identified dominant terms and themes within the selected chapter  
 - Visualized word frequency distributions and lexical emphasis  
@@ -89,6 +79,15 @@ The project highlights how computational text analysis techniques can be applied
 3. Open the notebook: *jupyter notebook ebook_web_scraping.ipynb*
 4. Run the cells sequentially to reproduce the analysis
 
+---
+
+## Future Enhancements
+- Extend analysis to multiple chapters or full-text analysis
+- Compare sentiment trends across chapters
+- Enable batch analysis of multiple Project Gutenberg books
+- Develop interactive dashboards using Streamlit or Dash
+- Implement POS-aware lemmatization for improved linguistic accuracy
+- Integrate Named Entity Recognition (NER) using spaCy
 
 
 ### License
@@ -97,6 +96,7 @@ This project is licensed under the MIT License.
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
 
 
 
