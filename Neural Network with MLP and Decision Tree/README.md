@@ -21,16 +21,16 @@ The project demonstrates a complete machine learning workflow, including data pr
 ## Methods & Tools
 
 ### Programming Environment
-- Python 
+- Python 3.12
 - Jupyter Notebook
 
 ### Libraries Used
 
-- **Data Processing:** NumPy, Pandas
-- **Machine Learning:** Scikit-learn
+- **Data Processing:** numPy, pandas
+- **Machine Learning:** scikit-learn
 - **Preprocessing:** StandardScaler, OneHotEncoder, ColumnTransformer
 - **Models:** MLPClassifier, DecisionTreeClassifier
-- **Evaluation & Visualization:** Matplotlib, Seaborn
+- **Evaluation & Visualization:** matplotlib, seaborn
 
 ---
 
@@ -72,14 +72,6 @@ The project demonstrates a complete machine learning workflow, including data pr
 
 ---
 
-## Future Enhancements
-- Extend analysis using advanced ensemble models such as Random Forest or XGBoost
-- Incorporate additional student data (e.g., assignments, extracurricular activities)
-- Perform hyperparameter tuning for improved model performance
-- Explore fairness and bias considerations in educational predictions
-
----
-
 ## Results & Insights
 - Successfully classified students into performance tiers based on behavioral and academic indicators
 - Compared model behavior:
@@ -103,6 +95,14 @@ The project demonstrates a complete machine learning workflow, including data pr
 3. Open the notebook: *jupyter notebook exam_score_prediction.ipynb*
 4. Run the cells sequentially to reproduce the analysis
 
+---
+
+## Future Enhancements
+- Extend analysis using advanced ensemble models such as Random Forest or XGBoost
+- Incorporate additional student data (e.g., assignments, extracurricular activities)
+- Perform hyperparameter tuning for improved model performance
+- Explore fairness and bias considerations in educational predictions
+
 
 
 ### License
@@ -112,5 +112,6 @@ This project is licensed under the MIT License.
 This project is intended for educational, research, and professional learning purposes.
 
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
+
 
 
