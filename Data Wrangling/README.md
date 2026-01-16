@@ -31,7 +31,7 @@ To clean, preprocess, and analyze public library usage data by applying data wra
 ---
 
 ## Programming Environment
-- Python 3.12
+- Python 3.12+
 - Jupyter Notebook
 
 ---
@@ -108,4 +108,5 @@ This project is licensed under the MIT License.
 
 **Ethical Use Notice:**
 This project is intended for educational, research, and professional learning purposes.
+
 Misrepresentation of authorship or deceptive use is unethical. Attribution is required under the MIT License.
